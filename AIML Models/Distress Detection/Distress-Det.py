@@ -9,7 +9,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 mp_pose = mp.solutions.pose
 
 # Webcam input
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 prev_frame_time = 0
 new_frame_time = 0
 
