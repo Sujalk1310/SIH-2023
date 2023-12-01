@@ -1,0 +1,22 @@
+[
+    {
+      "Date": "2011-04-25",
+      "Grievance_ID": "1001",
+      "Worker_ID": "001",
+      "Location": "XYZ street , Mathura , Uttar Pradesh",
+      "Priority": "Top",
+      "Department": "Law & Enforcement",
+      "Status": "Lodged",
+      "Stage": "1/5"
+    },
+    {
+      "Date": "2011-04-25",
+      "Grievance_ID": "1002",
+      "Worker_ID": "002",
+      "Location": "XYZ street , Lucknow , Uttar Pradesh",
+      "Priority": "Low",
+      "Department": "Medical",
+      "Status": "Completed",
+      "Stage": "5/5"
+    }
+]

@@ -1,0 +1,117 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header02 {
+  width: 100%;
+  height: 15vh;
+  background-color: orange;
+}
+.navi {
+  display: flex;
+  justify-content: space-between;
+  gap: 250px;
+  padding: 10px;
+}
+.headingg{
+  margin-top: 0.8rem;
+}
+.nav-link{
+  color:gray;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+.btn{
+  background-color: orange;
+}
+
+.sec01{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin: 0.5rem;
+}
+
+.tab {
+  margin-top: 100px;
+}
+
+.cardss{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.upp-links{
+background-color: white;
+border-radius: 10px 10px 10px;
+padding:0.5rem;
+display: flex;
+}
+
+.upp-links:hover{
+background-color:#d9d9d9;
+color: orange;
+transition: 0.5s;
+}
+
+.conss{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: -1rem;
+width: 100%;
+margin-top: 20px;
+}
+
+.secs{
+margin-top: 4rem;
+width: 50%;
+justify-content: space-between;
+padding-left: 10%;
+padding-right: 10%;
+display: flex;
+}
+
+.ad {
+  width: 162px;
+}
+
+#gfg {
+color:black;
+/* font-size: large; */
+}
+
+.lasts{
+background-color: rgb(204, 204, 204);
+}
+
+.background-image{
+  background-image: url("../imgs/background_main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed top;
+}
+
+/* .resultMarquee {
+  animation: scroll 20s linear 0s infinite;
+  position: absolute
+}
+
+@keyframes scroll {
+  from {
+      transform: translate(1080px,0)
+  }
+
+  to {
+     transform: translate(-500px,0)
+  }
+} */
