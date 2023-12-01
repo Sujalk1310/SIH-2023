@@ -1,0 +1,333 @@
+from api.models import User, Worker, Grievances
+
+w = Worker(w_name="Ved Prakash", aadhar="123123123123", contact="1234567890", dept="Electrical Department")
+w.save()
+
+w = Worker(w_name="Shyam Gupta", aadhar="234234234234", contact="1234567890", dept="Electrical Department")
+w.save()
+
+w = Worker(w_name="Dharmendra", aadhar="345345345345", contact="1234567890", dept="Fire Departement")
+w.save()
+
+w = Worker(w_name="Chaman Champak", aadhar="456456456456", contact="1234567890", dept="Fire Departement")
+w.save()
+
+w = Worker(w_name="Lorem Devi", aadhar="567567567567", contact="1234567890", dept="National Highways Authority of India (NHAI)")
+w.save()
+
+w = Worker(w_name="Binod Shukla", aadhar="678678678678", contact="1234567890", dept="National Highways Authority of India (NHAI)")
+w.save()
+
+w = Worker(w_name="Bubby Kumar", aadhar="789789789789", contact="1234567890", dept="Panchayat")
+w.save()
+
+w = Worker(w_name="Bunty Verma", aadhar="890890890890", contact="1234567890", dept="Panchayat")
+w.save()
+
+w = Worker(w_name="Angoothi Laal", aadhar="012012012012", contact="1234567890", dept="Nagar Palika (Municipal Corporation/Municipality)")
+w.save()
+
+w = Worker(w_name="Hari Haran", aadhar="901901901901", contact="1234567890", dept="Nagar Palika (Municipal Corporation/Municipality)")
+w.save()
+
+w = Worker(w_name="Sarbjeet Shukla", aadhar="109109109109", contact="1234567890", dept="Law Enforcement Department")
+w.save()
+
+w = Worker(w_name="Tagore Saab", aadhar="098098098098", contact="1234567890", dept="Law Enforcement Department")
+w.save()
+
+w = Worker(w_name="Bitto Bhaiya", aadhar="987987987987", contact="1234567890", dept="Women and Child Development Department")
+w.save()
+
+w = Worker(w_name="Seema Paar", aadhar="876876876876", contact="1234567890", dept="Women and Child Development Department")
+w.save()
+
+w = Worker(w_name="Tej Pratap", aadhar="765765765765", contact="1234567890", dept="Labour Department")
+w.save()
+
+w = Worker(w_name="Meenu Kumar", aadhar="654654654654", contact="1234567890", dept="Labour Department")
+w.save()
+
+w = Worker(w_name="Shri Sharma", aadhar="543543543543", contact="1234567890", dept="Revenue Department")
+w.save()
+
+w = Worker(w_name="Sabha Bhai", aadhar="432432432432", contact="1234567890", dept="Revenue Department")
+w.save()
+
+w = Worker(w_name="Mukesh Panter", aadhar="321321321321", contact="1234567890", dept="Agriculture Department")
+w.save()
+
+w = Worker(w_name="Luv Kumar Yadav", aadhar="210210210210", contact="1234567890", dept="Agriculture Department")
+w.save()
+
+w = Worker(w_name="Raveena Mishra", aadhar="135135135135", contact="1234567890", dept="Transport Department")
+w.save()
+
+w = Worker(w_name="Chintan Haran Mishra", aadhar="246246246246", contact="1234567890", dept="Transport Department")
+w.save()
+
+w = Worker(w_name="Baman Baman", aadhar="357357357357", contact="1234567890", dept="Health Department")
+w.save()
+
+w = Worker(w_name="Babu Rao", aadhar="210210210210", contact="468468468468", dept="Health Department")
+w.save()
+
+w = Worker(w_name="Sumit Master", aadhar="579579579579", contact="1234567890", dept="Education Department")
+w.save()
+
+w = Worker(w_name="Pachauri Kachauri", aadhar="680680680680", contact="1234567890", dept="Education Department")
+w.save()
+
+w = Worker(w_name="Jalneer Sharma", aadhar="124124124124", contact="1234567890", dept="Water Department")
+w.save()
+
+w = Worker(w_name="Neerja Upadhyay", aadhar="134134134134", contact="1234567890", dept="Water Department")
+w.save()
+
+a = User(name="Shyam Lala", aadhar="143143143143", contact="2345678901", password="123", access="adm", dept="Electrical Department")
+a.save()
+
+a = User(name="Garam Laal", aadhar="451451451451", contact="2345678901", password="123", access="adm", dept="Fire Departement")
+a.save()
+
+a = User(name="Naram Laal", aadhar="155155155155", contact="2345678901", password="123", access="adm", dept="National Highways Authority of India (NHAI)")
+a.save()
+
+a = User(name="Chaman Laal", aadhar="878878878878", contact="2345678901", password="123", access="adm", dept="Panchayat")
+a.save()
+
+a = User(name="Nagar Laal", aadhar="453453453453", contact="2345678901", password="123", access="adm", dept="Nagar Palika (Municipal Corporation/Municipality)")
+a.save()
+
+a = User(name="Law Kumar", aadhar="342342342342", contact="2345678901", password="123", access="adm", dept="Law Enforcement Department")
+a.save()
+
+a = User(name="Boman Kumar", aadhar="655655655655", contact="2345678901", password="123", access="adm", dept="Women and Child Development Department")
+a.save()
+
+a = User(name="Lala Laal", aadhar="333222111000", contact="2345678901", password="123", access="adm", dept="Labour Department")
+a.save()
+
+a = User(name="Paisa Kumar", aadhar="555444333222", contact="2345678901", password="123", access="adm", dept="Revenue Department")
+a.save()
+
+a = User(name="Vanmanush Kumar", aadhar="777666555444", contact="2345678901", password="123", access="adm", dept="Agriculture Department")
+a.save()
+
+a = User(name="Tractor Kumar", aadhar="999888777666", contact="2345678901", password="123", access="adm", dept="Transport Department")
+a.save()
+
+a = User(name="Dhadkan Mishra", aadhar="888777666555", contact="2345678901", password="123", access="adm", dept="Health Department")
+a.save()
+
+a = User(name="Padaku Bhaiya", aadhar="111333444222", contact="2345678901", password="123", access="adm", dept="Education Department")
+a.save()
+
+a = User(name="Bijli Dev", aadhar="666777888999", contact="2345678901", password="123", access="adm", dept="Water Department")
+a.save()
+
+sup = User(name="Bhagwaan", aadhar="111111111111", contact="2345678901", password="123", access="sup")
+sup.save()
+
+u = User(name="User1", aadhar="222222222222", contact="3456789012", password="123")
+u.save()
+
+u = User(name="User2", aadhar="333333333333", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User3", aadhar="444444444444", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User4", aadhar="555555555555", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User5", aadhar="666666666666", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User6", aadhar="777777777777", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User7", aadhar="888888888888", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User8", aadhar="999999999999", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User9", aadhar="101101101101", contact="3456789012", password="123")
+u.save()
+
+
+u = User(name="User10", aadhar="909909909909", contact="3456789012", password="123")
+u.save()
+
+user_16 = User.objects.get(id=16)
+user_17 = User.objects.get(id=17)
+user_18 = User.objects.get(id=18)
+user_19 = User.objects.get(id=19)
+user_20 = User.objects.get(id=20)
+user_21 = User.objects.get(id=21)
+user_22 = User.objects.get(id=22)
+user_23 = User.objects.get(id=23)
+user_24 = User.objects.get(id=24)
+user_25 = User.objects.get(id=25)
+
+g1 = Grievances(uid=user_16, dept="Transport Department", priority="NOR", status="Active", stage="1", lat="41.8781", long="-87.6298", location="Chicago", summary="Request for improved public transportation routes.")
+g1.save()
+
+g2 = Grievances(uid=user_17, dept="Education Department", priority="URG", status="Active", stage="3", lat="51.1657", long="10.4515", location="Berlin", summary="Concerns about the quality of education in a local school.")
+g2.save()
+
+g3 = Grievances(uid=user_18, dept="Health Department", priority="NOR", status="Active", stage="2", lat="45.4215", long="-75.6919", location="Ottawa", summary="Complaint about long wait times at a healthcare clinic.")
+g3.save()
+
+g4 = Grievances(uid=user_19, dept="Agriculture Department", priority="URG", status="Active", stage="4", lat="35.682839", long="139.759455", location="Tokyo", summary="Request for agricultural subsidies for local farmers.")
+g4.save()
+
+g5 = Grievances(uid=user_20, dept="Fire Department", priority="NOR", status="Completed", stage="5", lat="40.7128", long="-74.0060", location="New York", summary="Successful firefighting operation in a commercial area.")
+g5.save()
+
+g6 = Grievances(uid=user_21, dept="Panchayat", priority="URG", status="Active", stage="1", lat="28.6139", long="77.2090", location="New Delhi", summary="Improvement needed in rural road infrastructure.")
+g6.save()
+
+g7 = Grievances(uid=user_22, dept="Labour Department", priority="NOR", status="Active", stage="3", lat="34.0522", long="-118.2437", location="Los Angeles", summary="Report of workplace harassment and discrimination.")
+g7.save()
+
+g8 = Grievances(uid=user_23, dept="Women and Child Development Department", priority="URG", status="Active", stage="2", lat="12.9716", long="77.5946", location="Bengaluru", summary="Child welfare concerns in a local orphanage.")
+g8.save()
+
+g9 = Grievances(uid=user_24, dept="Transport Department", priority="NOR", status="Active", stage="4", lat="19.0760", long="72.8777", location="Mumbai", summary="Complaint about reckless driving on city streets.")
+g9.save()
+
+g10 = Grievances(uid=user_25, dept="Law Enforcement Department", priority="URG", status="Active", stage="1", lat="30.2672", long="-97.7431", location="Austin", summary="Request for increased police patrolling in a neighborhood.")
+g10.save()
+
+g11 = Grievances(uid=user_16, dept="Revenue Department", priority="NOR", status="Active", stage="2", lat="51.5074", long="-0.1278", location="London", summary="Tax assessment dispute for a commercial property.")
+g11.save()
+
+g12 = Grievances(uid=user_17, dept="Fire Department", priority="URG", status="Active", stage="3", lat="40.7128", long="-74.0060", location="New York", summary="Request for fire safety inspection at a warehouse.")
+g12.save()
+
+g13 = Grievances(uid=user_18, dept="Transport Department", priority="NOR", status="Active", stage="4", lat="48.8566", long="2.3522", location="Paris", summary="Complaint about public transportation fare hike.")
+g13.save()
+
+g14 = Grievances(uid=user_19, dept="National Highways Authority of India (NHAI)", priority="URG", status="Active", stage="5", lat="35.682839", long="139.759455", location="Tokyo", summary="Urgent road repair required on a major highway.")
+g14.save()
+
+g15 = Grievances(uid=user_20, dept="Labour Department", priority="NOR", status="Completed", stage="5", lat="41.8781", long="-87.6298", location="Chicago", summary="Successful resolution of a labor dispute.")
+g15.save()
+
+g16 = Grievances(uid=user_21, dept="Water Department", priority="URG", status="Active", stage="1", lat="51.1657", long="10.4515", location="Berlin", summary="Water supply issue in a residential area.")
+g16.save()
+
+g17 = Grievances(uid=user_22, dept="Education Department", priority="NOR", status="Active", stage="2", lat="45.4215", long="-75.6919", location="Ottawa", summary="Request for additional teachers in a local school.")
+g17.save()
+
+g18 = Grievances(uid=user_23, dept="Health Department", priority="URG", status="Active", stage="3", lat="35.682839", long="139.759455", location="Tokyo", summary="Complaint about unsanitary conditions in a hospital.")
+g18.save()
+
+g19 = Grievances(uid=user_24, dept="Fire Department", priority="NOR", status="Active", stage="4", lat="28.6139", long="77.2090", location="New Delhi", summary="Emergency fire response needed in a residential area.")
+g19.save()
+
+g20 = Grievances(uid=user_25, dept="Transport Department", priority="URG", status="Active", stage="5", lat="34.0522", long="-118.2437", location="Los Angeles", summary="Complaint about a transportation company's services.")
+g20.save()
+
+g21 = Grievances(uid=user_16, dept="Panchayat", priority="NOR", status="Active", stage="1", lat="19.0760", long="72.8777", location="Mumbai", summary="Request for a community park in a rural area.")
+g21.save()
+
+g22 = Grievances(uid=user_17, dept="Agriculture Department", priority="URG", status="Active", stage="2", lat="12.9716", long="77.5946", location="Bengaluru", summary="Crop disease concerns among local farmers.")
+g22.save()
+
+g23 = Grievances(uid=user_18, dept="Women and Child Development Department", priority="NOR", status="Active", stage="3", lat="30.2672", long="-97.7431", location="Austin", summary="Child protection case requiring immediate attention.")
+g23.save()
+
+g24 = Grievances(uid=user_19, dept="Law Enforcement Department", priority="URG", status="Active", stage="4", lat="51.5074", long="-0.1278", location="London", summary="Complaint about noise disturbance and rowdy behavior.")
+g24.save()
+
+g25 = Grievances(uid=user_20, dept="Revenue Department", priority="NOR", status="Active", stage="5", lat="40.7128", long="-74.0060", location="New York", summary="Land ownership dispute between neighbors.")
+g25.save()
+
+g26 = Grievances(uid=user_21, dept="National Highways Authority of India (NHAI)", priority="URG", status="Completed", stage="5", lat="48.8566", long="2.3522", location="Paris", summary="Highway expansion project successfully completed.")
+g26.save()
+
+g27 = Grievances(uid=user_22, dept="Health Department", priority="NOR", status="Active", stage="1", lat="41.8781", long="-87.6298", location="Chicago", summary="Complaint about a local health clinic's hygiene.")
+g27.save()
+
+g28 = Grievances(uid=user_23, dept="Transport Department", priority="URG", status="Active", stage="2", lat="51.1657", long="10.4515", location="Berlin", summary="Request for a new subway line in the city.")
+g28.save()
+
+g29 = Grievances(uid=user_24, dept="Fire Department", priority="NOR", status="Active", stage="3", lat="45.4215", long="-75.6919", location="Ottawa", summary="Emergency response needed for a house fire.")
+g29.save()
+
+g30 = Grievances(uid=user_25, dept="Panchayat", priority="URG", status="Active", stage="4", lat="35.682839", long="139.759455", location="Tokyo", summary="Request for better waste management in a rural area.")
+g30.save()
+
+g31 = Grievances(uid=user_16, dept="Labour Department", priority="NOR", status="Active", stage="2", lat="28.6139", long="77.2090", location="New Delhi", summary="Complaint about workplace safety.")
+g31.save()
+
+g32 = Grievances(uid=user_17, dept="Water Department", priority="URG", status="Active", stage="4", lat="34.0522", long="-118.2437", location="Los Angeles", summary="Water quality issue in a residential area.")
+g32.save()
+
+g33 = Grievances(uid=user_18, dept="National Highways Authority of India (NHAI)", priority="NOR", status="Active", stage="1", lat="12.9716", long="77.5946", location="Bengaluru", summary="Request for road repair on NH-44.")
+g33.save()
+
+g34 = Grievances(uid=user_19, dept="Health Department", priority="URG", status="Active", stage="3", lat="19.0760", long="72.8777", location="Mumbai", summary="Complaint about a local healthcare facility.")
+g34.save()
+
+g35 = Grievances(uid=user_20, dept="Fire Department", priority="NOR", status="Completed", stage="5", lat="28.6139", long="77.2090", location="New Delhi", summary="Fire incident successfully handled in a commercial building.")
+g35.save()
+
+g36 = Grievances(uid=user_21, dept="Education Department", priority="URG", status="Active", stage="4", lat="30.2672", long="-97.7431", location="Austin", summary="Request for school curriculum improvement.")
+g36.save()
+
+g37 = Grievances(uid=user_22, dept="Panchayat", priority="NOR", status="Active", stage="3", lat="51.5074", long="-0.1278", location="London", summary="Complaint about sanitation facilities in a rural area.")
+g37.save()
+
+g38 = Grievances(uid=user_23, dept="Agriculture Department", priority="URG", status="Active", stage="2", lat="40.7128", long="-74.0060", location="New York", summary="Crop damage due to extreme weather conditions.")
+g38.save()
+
+g39 = Grievances(uid=user_24, dept="Revenue Department", priority="NOR", status="Active", stage="1", lat="48.8566", long="2.3522", location="Paris", summary="Property tax assessment dispute.")
+g39.save()
+
+g40 = Grievances(uid=user_25, dept="Law Enforcement Department", priority="URG", status="Active", stage="2", lat="35.682839", long="139.759455", location="Tokyo", summary="Complaint regarding neighborhood safety and police response time.")
+g40.save()
+
+dept:
+Electrical Department
+Fire Departement
+National Highways Authority of India (NHAI)
+Panchayat
+Nagar Palika (Municipal Corporation/Municipality)
+Law Enforcement Department
+Women and Child Development Department
+Labour Department
+Revenue Department
+Agriculture Department
+Transport Department
+Health Department
+Education Department
+Water Department
+
+priority:
+NOR
+URG
+
+status:
+Active
+Completed
+
+stage:
+1
+2
+3
+4
+5
+
+summary:
+needs to be according to department for greivancess redressal
