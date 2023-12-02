@@ -6,5 +6,5 @@ This repo is for Team EchoSphere participating in Smart India Hackathon - 2023
 * [Saumya Srivastava](https://github.com/SaumyaSrivastava13/)
 * [Medha Agrawal](https://github.com/1903medhaag/)
 * [Bhoomi Shakya](https://github.com/BhoomiShakya/)
-* [Aman Pandey]()
+* [Aman Pandey](https://github.com/amanpandey5800)
 * [Divyansh Agrawal](https://github.com/divyansh89532/)
